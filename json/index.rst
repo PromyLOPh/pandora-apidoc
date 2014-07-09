@@ -71,6 +71,7 @@ message whereas successful requests carry actual response data in the key
    bookmarks
    methods
    errorcodes
+   implementations
 
 .. toctree::
    :hidden:
