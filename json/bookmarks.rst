@@ -3,7 +3,7 @@ Bookmarks
 
 Users can bookmark artists or songs.
 
-.. _user.getBookmarks:
+.. _user-getBookmarks:
 
 Retrieve bookmarks
 ------------------
@@ -65,7 +65,7 @@ The request has no parameters.
      
      }
 
-.. _bookmark.addArtistBookmark:
+.. _bookmark-addArtistBookmark:
 
 Add artist bookmark
 -------------------
@@ -108,7 +108,7 @@ Add artist bookmark
         }
     }
 
-.. _bookmark.addSongBookmark:
+.. _bookmark-addSongBookmark:
 
 Add song bookmark
 -----------------
