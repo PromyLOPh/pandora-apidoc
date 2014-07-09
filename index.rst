@@ -15,7 +15,7 @@ The source code of this documentation is available at `github`_ or `here`_.
 Suggestions and patches are welcome.
 
 .. _github: http://github.com/promyloph/pandora-apidoc/
-.. _here: http://6xq.net/git/pandora-apidoc.git
+.. _here: http://6xq.net/git/lars/pandora-apidoc.git
 
 .. toctree::
    :maxdepth: 2

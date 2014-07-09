@@ -133,7 +133,55 @@ station. Banned songs are never played again on this particular station.
 
     stationToken,string,
     trackToken,string,
+    isPositive,boolean,``false`` bans track
+
+.. code:: json
+
+    {
+        "stationToken": "374145764047334893",
+        "trackToken": "fcc2298ec4b1c93e73ad4b2813ceca0dba565bbbe03d8a78bad65ee89a7aaf4d0b3b11954fe6ab08794283f8ef1d44bfc32ce9f8e0513bec",
+        "isPositive": false,
+        "userAuthToken": "XXX",
+        "syncTime": 1404911036
+    }
+
+.. csv-table::
+   :header: Name,Type,Description
+
+    dateCreated,object,
+    musicToken,string,
+    songName,string,
+    totalThumbsUp,int,
+    feedbackId,string,See :ref:`station-deleteFeedback`
     isPositive,boolean,
+
+.. code:: json
+
+    {
+        "stat": "ok",
+        "result": {
+            "totalThumbsDown": 4,
+            "stationPersonalizationPercent": 57,
+            "dateCreated": {
+                "date": 9,
+                "day": 3,
+                "hours": 6,
+                "minutes": 3,
+                "month": 6,
+                "seconds": 56,
+                "time": 1404911036840,
+                "timezoneOffset": 420,
+                "year": 114
+            },
+            "albumArtUrl": "http://cont-sv5-2.pandora.com/images/public/amz/2/2/9/5/094632175922_130W_130H.jpg",
+            "musicToken": "23234b0abdbeb37d",
+            "songName": "Nothing Compares 2 U",
+            "artistName": "Sinead O'Connor",
+            "totalThumbsUp": 20,
+            "feedbackId": "21955050420286614",
+            "isPositive": false
+        }
+    }
 
 
 .. _user-sleepSong:
