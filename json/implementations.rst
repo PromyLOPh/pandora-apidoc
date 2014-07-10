@@ -7,7 +7,7 @@ A list of open source Pandora JSON API implementations.
 .. csv-table::
    :header: Name, Used in client, Language, Remarks
 
-   libpiano_, pianobar_, C,""
+   libpiano_, "pianobar_, pianod_", C,""
    Pandora_, Hermes_, Objective-C,""
    `pithos.pandora`_, Pithos_, Python,""
    PandoraSharp_, Elpis_, C#, Not to be confused with the `original PandoraSharp`_ (uses XMLRPC)
@@ -21,3 +21,4 @@ A list of open source Pandora JSON API implementations.
 .. _pithos.pandora: https://github.com/pithos/pithos/tree/master/pithos/pandora
 .. _Pithos: https://pithos.github.io/
 .. _`original PandoraSharp`: http://www.justin-credible.net/Projects/PandoraSharp
+.. _pianod: http://deviousfish.com/pianod/
