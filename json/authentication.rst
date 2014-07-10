@@ -178,35 +178,3 @@ The returned userAuthToken is used to authenticate access to other API methods.
     1002,Wrong user credentials. 
 
 
-.. _user-canSubscribe:
-
-Get user subscriber status
---------------------------
-
-:Method: user.canSubscribe
-
-Returns whether a user is subscribed or if they can subscribe to Pandora One.
-Can be useful to determine which :ref:`Partner password<partners>` to use.
-
-.. code:: json
-
-    {
-       "userAuthToken": "XXX",
-       "syncTime": XXX
-    }
-
-.. csv-table::
-   :header: Name,Type,Description
-
-   canSubscribe,boolean,false if user is a Pandora One subscriber
-   isSubscriber,boolean,true if user is a Pandora One Subscriber
-
-.. code:: json
-
-    {
-        "stat": "ok",
-         "result": {
-              "canSubscribe": false,
-              "isSubscriber": true
-         }
-     }
