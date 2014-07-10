@@ -69,6 +69,7 @@ message whereas successful requests carry actual response data in the key
    stations
    play
    bookmarks
+   account
    methods
    errorcodes
    implementations
