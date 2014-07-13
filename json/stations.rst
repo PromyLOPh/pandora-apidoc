@@ -500,6 +500,25 @@ used as musicToken to create a new station with :ref:`station-createStation`.
         }
     }
 
+.. _station-getGenreStationsChecksum:
+
+Checksum
+^^^^^^^^
+
+:Method: station.getGenreStationsChecksum
+
+See :ref:`user-getStationListChecksum`.
+
+.. csv-table::
+    :header: Name ,Type ,Description
+
+    includeGenreCategoryAdUrl,bool,(optional)
+
+.. csv-table::
+    :header: Name ,Type ,Description
+
+    checksum,string,
+
 .. _station-transformSharedStation:
 
 Transform shared station

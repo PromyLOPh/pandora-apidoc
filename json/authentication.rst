@@ -5,6 +5,22 @@ Authentication
 
 Authentication is divided into two steps: Partner and user login.
 
+.. _test-checkLicensing:
+
+Check licensing
+---------------
+
+:Method: test.checkLicensing
+
+Check whether Pandora is available in the connecting client’s country, based on
+geoip database. This is not strictly required since :ref:`auth-partnerLogin`
+enforces this restriction. The request has no parameters.
+
+.. csv-table::
+    :header: Name,Type,Description
+
+    isAllowed,bool,
+
 .. _auth-partnerLogin:
 
 Partner login

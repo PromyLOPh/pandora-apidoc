@@ -139,7 +139,10 @@ Get subscriber status
 Returns whether a user is subscribed or if they can subscribe to Pandora One.
 Can be useful to determine which :ref:`Partner password<partners>` to use.
 
-This method has no request parameters.
+.. csv-table::
+   :header: Name,Type,Description
+
+    iapVendor,string,(optional)
 
 .. csv-table::
    :header: Name,Type,Description
@@ -156,4 +159,40 @@ This method has no request parameters.
               "isSubscriber": true
          }
      }
+
+.. _user-getUsageInfo:
+
+Usage info
+----------
+
+:Method: user.getUsageInfo
+
+The request has no parameters.
+
+.. csv-table::
+   :header: Name,Type,Description
+
+    accountMonthlyListening,int,
+    deviceMonthlyListening,int,
+    monthlyCapHours,int,
+    monthlyCapWarningPercent,int,
+    monthlyCapWarningRepeatPercent,int,
+    isMonthlyPayer,bool,
+    isCapped,bool,
+    listeningTimestamp,int,
+
+.. code:: json
+
+    {
+        "stat": "ok",
+        "result": {
+            "monthlyCapWarningRepeatPercent": 10,
+            "monthlyCapHours": 320,
+            "deviceMonthlyListening": 0,
+            "isMonthlyPayer": false,
+            "isCapped": false,
+            "monthlyCapWarningPercent": 85,
+            "accountMonthlyListening": 0
+        }
+    }
 
