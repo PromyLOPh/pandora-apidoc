@@ -5,6 +5,10 @@ Authentication
 
 Authentication is divided into two steps: Partner and user login.
 
+
+.. index::
+   single: test.checkLicensing
+
 .. _test-checkLicensing:
 
 Check licensing
@@ -20,6 +24,10 @@ enforces this restriction. The request has no parameters.
     :header: Name,Type,Description
 
     isAllowed,bool,
+
+
+.. index::
+   single: auth.partnerLogin
 
 .. _auth-partnerLogin:
 
@@ -90,6 +98,10 @@ Code  Description
 ====  ============
 1002  INVALID_PARTNER_LOGIN. Invalid partner credentials. 
 ====  ============
+
+
+.. index::
+   single: auth.userLogin
 
 .. _auth-userLogin:
 

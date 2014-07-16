@@ -1,6 +1,10 @@
 JSON API v5
 ===========
 
+
+.. index::
+   single: API Endpoints
+
 The current JSON API version is 5. Two different endpoints are available:
 
 - http://tuner.pandora.com/services/json/
@@ -8,6 +12,11 @@ The current JSON API version is 5. Two different endpoints are available:
 
 - http://internal-tuner.pandora.com/services/json/
 - https://internal-tuner.pandora.com/services/json/
+
+
+.. index::
+   single: bodyenc
+   single: Blowfish encryption
 
 .. _bodyenc:
 
@@ -32,6 +41,10 @@ method and partner_id. The URL in this case would be
 Make sure you URL encode the parameter’s values.
 
 The following values must be present in every JSON request object (if available): 
+
+
+.. index::
+   single: synctime
 
 .. _synctime:
 

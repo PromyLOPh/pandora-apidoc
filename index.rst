@@ -1,6 +1,10 @@
 Unofficial Pandora API documentation
 ====================================
 
+
+.. index::
+   single: Contributing
+
 This documentation project replaces the Wiki_ hosted by wikia_, which got taken
 down by Pandora_ (`read more`_). It aims to provide language-independent
 documentation of Pandora’s `proprietary API`_.

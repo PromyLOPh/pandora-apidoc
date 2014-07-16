@@ -7,6 +7,10 @@ A *station* is a collection of one or more user-supplied *seeds*. Artists or
 tracks can be used as seed. Based on the seeds Pandora decides which music to
 play.
 
+
+.. index::
+   single: user.getStationList
+
 .. _user-getStationList:
 
 Retrieve station list
@@ -85,6 +89,10 @@ QuickMix stations additionally include a list of station ids
             }
          }
 
+
+.. index::
+   single: user.getStationListChecksum
+
 .. _user-getStationListChecksum:
 
 Check station list for modifications
@@ -116,6 +124,10 @@ Add new station
 
 New stations can be created by searching for an artist/song or using a track
 from a playlist.
+
+
+.. index::
+   single: music.search
 
 .. _music-search:
 
@@ -168,6 +180,10 @@ Matching songs and artists are returned in two separate list.
         }
     }
 
+
+.. index::
+   single: user.createStation
+
 .. _station-createStation:
 
 Create
@@ -186,6 +202,10 @@ should be used as seed.
    trackToken,string,See :ref:`station-getPlaylist`
    musicType,string,“song” or “artist”
    musicToken,string,See :ref:`music-search`
+
+
+.. index::
+   single: station.addMusic
 
 .. _station-addMusic:
 
@@ -240,6 +260,10 @@ station.
         }
     }
 
+
+.. index::
+   single: station.deleteMusic
+
 .. _station-deleteMusic:
 
 Remove seed
@@ -269,6 +293,10 @@ This method does not return data.
 
    1032,Last seed cannot be removed
 
+
+.. index::
+   single: station.renameStation
+
 .. _station-renameStation:
 
 Rename station
@@ -281,6 +309,10 @@ Rename station
 
    stationToken,string,"Existing station, see :ref:`user-getStationList`"
    stationName,string,New station name
+
+
+.. index::
+   single: station.deleteStation
 
 .. _station-deleteStation:
 
@@ -303,6 +335,10 @@ Delete station
     }
 
 No data is returned in response.
+
+
+.. index::
+   single: station.getStation
 
 .. _station-getStation:
 
@@ -439,6 +475,9 @@ Extended station information includes seeds and feedback.
      }
 
 
+.. index::
+   single: station.deleteFeedback
+
 .. _station-deleteFeedback:
 
 Remove feedback
@@ -462,6 +501,10 @@ Feedback added by :ref:`station-addFeedback` can be removed from the station.
     }
 
 This method has does not return data.
+
+
+.. index::
+   single: station.getGenreStations
 
 .. _station-getGenreStations:
 
@@ -500,6 +543,10 @@ used as musicToken to create a new station with :ref:`station-createStation`.
         }
     }
 
+
+.. index::
+   single: station.getGenreStationsChecksum
+
 .. _station-getGenreStationsChecksum:
 
 Checksum
@@ -519,6 +566,10 @@ See :ref:`user-getStationListChecksum`.
 
     checksum,string,
 
+
+.. index::
+   single: station.transformSharedStation
+
 .. _station-transformSharedStation:
 
 Transform shared station
@@ -533,6 +584,10 @@ list. These stations cannot be modified (i.e. rate tracks) unless transformed.
     :header: Name ,Type ,Description
 
     stationToken,string,See :ref:`user-getStationList`
+
+
+.. index::
+   single: user.setQuickMix
 
 .. _user-setQuickMix:
 

@@ -3,6 +3,10 @@
 Play
 ====
 
+
+.. index::
+   single: station.getPlaylist
+
 .. _station-getPlaylist:
 
 Retrieve playlist
@@ -118,6 +122,10 @@ Usually a playlist contains four tracks.
          }
     }
 
+
+.. index::
+   single: station.addFeedback
+
 .. _station-addFeedback:
 
 Rate track
@@ -184,6 +192,9 @@ station. Banned songs are never played again on this particular station.
     }
 
 
+.. index::
+   single: user.sleepSong
+
 .. _user-sleepSong:
 
 Temporarily ban track
@@ -207,6 +218,10 @@ A song can be banned *from all stations* temporarily (one month).
     }
 
 Nothing is returned in the response.
+
+
+.. index::
+   single: track.explainTrack
 
 .. _track-explainTrack:
 

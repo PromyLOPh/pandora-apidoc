@@ -3,6 +3,10 @@ Bookmarks
 
 Users can bookmark artists or songs.
 
+
+.. index::
+   single: user.getBookmarks
+
 .. _user-getBookmarks:
 
 Retrieve bookmarks
@@ -65,6 +69,10 @@ The request has no parameters.
      
      }
 
+
+.. index::
+   single: bookmark.addArtistBookmark
+
 .. _bookmark-addArtistBookmark:
 
 Add artist bookmark
@@ -107,6 +115,10 @@ Add artist bookmark
             "musicToken": "R278544"
         }
     }
+
+
+.. index::
+   single: bookmark.addSongBookmark
 
 .. _bookmark-addSongBookmark:
 

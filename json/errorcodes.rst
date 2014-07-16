@@ -1,3 +1,7 @@
+.. index::
+   single: Error codes
+
+
 List of error codes
 ===================
 

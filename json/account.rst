@@ -1,6 +1,10 @@
 Account
 =======
 
+
+.. index::
+   single: user.validateUsername
+
 .. _user-validateUsername:
 
 Validate username
@@ -21,6 +25,10 @@ This method can be used before authenticating a user with
 
    isValid,boolean,
    isUnique,boolean,
+
+
+.. index::
+   single: user.createUser
 
 .. _user-createUser:
 
@@ -84,6 +92,10 @@ The following settings are currently read/writeable:
    facebookSettingChecksum,boolean,
    userInitiatedChange,boolean,
 
+
+.. index::
+   single: user.getSettings
+
 .. _user-getSettings:
 
 Retrieve
@@ -97,6 +109,10 @@ Retrieve
    includeFacebook,boolean,
 
 See :ref:`settingkeys` for return values.
+
+
+.. index::
+   single: user.changeSettings
 
 .. _user-changeSettings:
 
@@ -115,6 +131,10 @@ body.
 
 .. TODO response?
 
+
+.. index::
+   single: user.emailPassword
+
 .. _user-emailPassword:
 
 Recover password
@@ -128,6 +148,10 @@ Recover password
    username,string,
 
 .. TODO response?
+
+
+.. index::
+   single: user.canSubscribe
 
 .. _user-canSubscribe:
 
@@ -159,6 +183,10 @@ Can be useful to determine which :ref:`Partner password<partners>` to use.
               "isSubscriber": true
          }
      }
+
+
+.. index::
+   single: user.getUsageInfo
 
 .. _user-getUsageInfo:
 

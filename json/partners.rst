@@ -1,3 +1,7 @@
+.. index::
+   single: Partner passwords
+
+
 .. _partners:
 
 Partner passwords

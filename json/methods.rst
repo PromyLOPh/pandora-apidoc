@@ -1,3 +1,6 @@
+.. index::
+   single: Methods
+
 .. _methods:
 
 List of methods
