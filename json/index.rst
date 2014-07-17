@@ -15,8 +15,7 @@ The current JSON API version is 5. Two different endpoints are available:
 
 
 .. index::
-   single: bodyenc
-   single: Blowfish encryption
+   Blowfish encryption, HTTP request
 
 .. _bodyenc:
 
@@ -44,7 +43,7 @@ The following values must be present in every JSON request object (if available)
 
 
 .. index::
-   single: synctime
+   Time synchronization
 
 .. _synctime:
 

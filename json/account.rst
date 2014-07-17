@@ -3,7 +3,7 @@ Account
 
 
 .. index::
-   single: user.validateUsername
+   pair: method; user.validateUsername
 
 .. _user-validateUsername:
 
@@ -28,7 +28,7 @@ This method can be used before authenticating a user with
 
 
 .. index::
-   single: user.createUser
+   pair: method; user.createUser
 
 .. _user-createUser:
 
@@ -94,7 +94,7 @@ The following settings are currently read/writeable:
 
 
 .. index::
-   single: user.getSettings
+   pair: method; user.getSettings
 
 .. _user-getSettings:
 
@@ -112,7 +112,7 @@ See :ref:`settingkeys` for return values.
 
 
 .. index::
-   single: user.changeSettings
+   pair: method; user.changeSettings
 
 .. _user-changeSettings:
 
@@ -133,7 +133,7 @@ body.
 
 
 .. index::
-   single: user.emailPassword
+   pair: method; user.emailPassword
 
 .. _user-emailPassword:
 
@@ -151,7 +151,7 @@ Recover password
 
 
 .. index::
-   single: user.canSubscribe
+   pair: method; user.canSubscribe
 
 .. _user-canSubscribe:
 
@@ -186,7 +186,7 @@ Can be useful to determine which :ref:`Partner password<partners>` to use.
 
 
 .. index::
-   single: user.getUsageInfo
+   pair: method; user.getUsageInfo
 
 .. _user-getUsageInfo:
 

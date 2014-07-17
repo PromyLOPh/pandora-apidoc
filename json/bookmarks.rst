@@ -5,7 +5,7 @@ Users can bookmark artists or songs.
 
 
 .. index::
-   single: user.getBookmarks
+   pair: method; user.getBookmarks
 
 .. _user-getBookmarks:
 
@@ -71,7 +71,7 @@ The request has no parameters.
 
 
 .. index::
-   single: bookmark.addArtistBookmark
+   pair: method; bookmark.addArtistBookmark
 
 .. _bookmark-addArtistBookmark:
 
@@ -118,7 +118,7 @@ Add artist bookmark
 
 
 .. index::
-   single: bookmark.addSongBookmark
+   pair: method; bookmark.addSongBookmark
 
 .. _bookmark-addSongBookmark:
 

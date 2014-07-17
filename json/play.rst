@@ -5,7 +5,7 @@ Play
 
 
 .. index::
-   single: station.getPlaylist
+   pair: method; station.getPlaylist
 
 .. _station-getPlaylist:
 
@@ -124,7 +124,7 @@ Usually a playlist contains four tracks.
 
 
 .. index::
-   single: station.addFeedback
+   pair: method; station.addFeedback
 
 .. _station-addFeedback:
 
@@ -193,7 +193,7 @@ station. Banned songs are never played again on this particular station.
 
 
 .. index::
-   single: user.sleepSong
+   pair: method; user.sleepSong
 
 .. _user-sleepSong:
 
@@ -221,7 +221,7 @@ Nothing is returned in the response.
 
 
 .. index::
-   single: track.explainTrack
+   pair: method; track.explainTrack
 
 .. _track-explainTrack:
 

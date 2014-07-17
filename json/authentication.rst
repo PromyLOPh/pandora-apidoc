@@ -7,7 +7,7 @@ Authentication is divided into two steps: Partner and user login.
 
 
 .. index::
-   single: test.checkLicensing
+   pair: method; test.checkLicensing
 
 .. _test-checkLicensing:
 
@@ -27,7 +27,7 @@ enforces this restriction. The request has no parameters.
 
 
 .. index::
-   single: auth.partnerLogin
+   pair: method; auth.partnerLogin
 
 .. _auth-partnerLogin:
 
@@ -101,7 +101,7 @@ Code  Description
 
 
 .. index::
-   single: auth.userLogin
+   pair: method; auth.userLogin
 
 .. _auth-userLogin:
 

@@ -9,7 +9,7 @@ play.
 
 
 .. index::
-   single: user.getStationList
+   pair: method; user.getStationList
 
 .. _user-getStationList:
 
@@ -91,7 +91,7 @@ QuickMix stations additionally include a list of station ids
 
 
 .. index::
-   single: user.getStationListChecksum
+   pair: method; user.getStationListChecksum
 
 .. _user-getStationListChecksum:
 
@@ -127,7 +127,7 @@ from a playlist.
 
 
 .. index::
-   single: music.search
+   pair: method; music.search
 
 .. _music-search:
 
@@ -182,7 +182,7 @@ Matching songs and artists are returned in two separate list.
 
 
 .. index::
-   single: user.createStation
+   pair: method; user.createStation
 
 .. _station-createStation:
 
@@ -205,7 +205,7 @@ should be used as seed.
 
 
 .. index::
-   single: station.addMusic
+   pair: method; station.addMusic
 
 .. _station-addMusic:
 
@@ -262,7 +262,7 @@ station.
 
 
 .. index::
-   single: station.deleteMusic
+   pair: method; station.deleteMusic
 
 .. _station-deleteMusic:
 
@@ -295,7 +295,7 @@ This method does not return data.
 
 
 .. index::
-   single: station.renameStation
+   pair: method; station.renameStation
 
 .. _station-renameStation:
 
@@ -312,7 +312,7 @@ Rename station
 
 
 .. index::
-   single: station.deleteStation
+   pair: method; station.deleteStation
 
 .. _station-deleteStation:
 
@@ -338,7 +338,7 @@ No data is returned in response.
 
 
 .. index::
-   single: station.getStation
+   pair: method; station.getStation
 
 .. _station-getStation:
 
@@ -476,7 +476,7 @@ Extended station information includes seeds and feedback.
 
 
 .. index::
-   single: station.deleteFeedback
+   pair: method; station.deleteFeedback
 
 .. _station-deleteFeedback:
 
@@ -504,7 +504,7 @@ This method has does not return data.
 
 
 .. index::
-   single: station.getGenreStations
+   pair: method; station.getGenreStations
 
 .. _station-getGenreStations:
 
@@ -545,7 +545,7 @@ used as musicToken to create a new station with :ref:`station-createStation`.
 
 
 .. index::
-   single: station.getGenreStationsChecksum
+   pair: method; station.getGenreStationsChecksum
 
 .. _station-getGenreStationsChecksum:
 
@@ -568,7 +568,7 @@ See :ref:`user-getStationListChecksum`.
 
 
 .. index::
-   single: station.transformSharedStation
+   pair: method; station.transformSharedStation
 
 .. _station-transformSharedStation:
 
@@ -587,7 +587,7 @@ list. These stations cannot be modified (i.e. rate tracks) unless transformed.
 
 
 .. index::
-   single: user.setQuickMix
+   pair: method; user.setQuickMix
 
 .. _user-setQuickMix:
 
