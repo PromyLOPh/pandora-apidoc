@@ -568,6 +568,26 @@ See :ref:`user-getStationListChecksum`.
 
 
 .. index::
+   pair: method; station.shareStation
+
+.. _station-shareStation:
+
+Share Station
+-------------
+
+:Method: station.shareStation
+
+Shares a station with the specified email addresses. that emails is a string array
+
+.. csv-table::
+    :header: Name ,Type ,Description
+    
+    stationId,string,See :ref:`user-getStationList`
+    stationToken,string,See :ref:`user-getStationList`
+    emails,string[],A list of emails to share the station with   
+
+
+.. index::
    pair: method; station.transformSharedStation
 
 .. _station-transformSharedStation:
@@ -610,4 +630,3 @@ Modify QuickMix
     }
 
 The response contains no data.
-

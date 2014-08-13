@@ -54,5 +54,5 @@ Code  Description
 1035     DAILY_TRIAL_LIMIT_REACHED         
 1036     INVALID_SPONSOR         
 1037     USER_ALREADY_USED_TRIAL 
+1039     PLAYLIST_EXCEEDED      Too many requests for a new playlist
 ====  ============
-

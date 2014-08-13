@@ -224,3 +224,20 @@ The request has no parameters.
         }
     }
 
+
+.. index::
+   pair: method; user.startComplimentaryTrial
+    
+.. _user-startComplimentaryTrial:
+
+Start a Complimentary Trial
+---------------------------
+
+:Method: user.startComplimentaryTrial
+
+Starts a complimentary pandora one trial. It is unknown what constitutes a valid sponsor at this time, and as such this method will always fail.
+
+.. csv-table::
+    :header: Name,Type,Description
+    
+    complimentarySponsor,string,The ID of the sponsor providing the complimentary trial.
