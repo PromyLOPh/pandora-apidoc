@@ -16,6 +16,7 @@ A list of open source Pandora JSON API implementations.
    `pithos.pandora`_, Pithos_, Python,""
    PandoraSharp_, Elpis_, C#, Not to be confused with the `original PandoraSharp`_ (uses XMLRPC)
    libpanda_, Mousiki_, Vala,""
+   gopiano_, , Go, ""
 
 .. _libpiano: https://github.com/PromyLOPh/pianobar/tree/master/src/libpiano
 .. _pianobar: http://6xq.net/projects/pianobar/
@@ -29,3 +30,4 @@ A list of open source Pandora JSON API implementations.
 .. _pianod: http://deviousfish.com/pianod/
 .. _libpanda: https://github.com/techwiz24/libpanda
 .. _Mousiki: http://techwiz24.github.io/mousiki/
+.. _gopiano: https://github.com/cellofellow/gopiano
