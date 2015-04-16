@@ -21,7 +21,7 @@ The current JSON API version is 5. Two different endpoints are available:
 
 Unless noted otherwise JSON-encoded requests sent by the client within the HTTP
 POST body are encrypted using Blowfish ECB and converted to hexadecimal
-notation.
+notation with lowercase letters.
 
 These URL parameters must be appended to the endpoint above if available:
 
