@@ -81,8 +81,6 @@ The following settings are currently read/writeable:
    emailNewFollowers,boolean,
    isExplicitContentFilterEnabled,boolean,
    isExplicitContentFilterPINProtected,boolean,
-   currentUsername,string,
-   currentPassword,string,
    newUsername,string,
    newPassword,string,
    facebookAutoShareEnabled,boolean,
@@ -90,8 +88,6 @@ The following settings are currently read/writeable:
    autoShareLikes,boolean,
    autoShareFollows,boolean,
    facebookSettingChecksum,boolean,
-   userInitiatedChange,boolean,
-
 
 .. index::
    pair: method; user.getSettings
@@ -124,13 +120,13 @@ Modify
 .. csv-table::
    :header: Name,Type,Description
 
-   includeFacebook,boolean,
+   currentUsername,string,
+   currentPassword,string,
+   userInitiatedChange,boolean,optional
+   includeFacebook,boolean,optional
 
 Additionally keys listed in :ref:`settingkeys` are permitted in the request
 body.
-
-.. TODO response?
-
 
 .. index::
    pair: method; user.emailPassword
