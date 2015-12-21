@@ -18,6 +18,8 @@ Retrieve ad metadata
 
 :Method: ad.getAdMetadata
 
+Retrieve the metadata for the associated advertisement token (usually provided by one of the other methods responsible for retrieving the playlist).
+
 .. csv-table::
     :header: Name, Type, Description
 
@@ -75,6 +77,8 @@ Register advertisement
 ----------------------
 
 :Method: ad.registerAd
+
+Register the tracking tokens associated with the advertisement. The theory is that this should be done just as the advertisement is about to play.
 
 .. csv-table::
     :header: Name, Type, Description
