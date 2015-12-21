@@ -82,6 +82,7 @@ message whereas successful requests carry actual response data in the key
    play
    bookmarks
    account
+   ads
    methods
    errorcodes
    implementations
