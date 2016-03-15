@@ -18,7 +18,7 @@ A list of open source Pandora JSON API implementations.
    PandoraSharp_, Elpis_, C#, Not to be confused with the `original PandoraSharp`_ (uses XMLRPC)
    libpanda_, Mousiki_, Vala,""
    gopiano_, , Go, ""
-   WebService-Pandora_, , Perl, ""
+   WebService-Pandora_, , Perl, "Perl 5.6+ compatible"
 
 .. _libpiano: https://github.com/PromyLOPh/pianobar/tree/master/src/libpiano
 .. _pianobar: http://6xq.net/projects/pianobar/
