@@ -156,8 +156,8 @@ Matching songs and artists are returned in two separate list.
 .. csv-table::
     :header: Name ,Type ,Description
 
-    songs.musicToken ,string , 'S' followed by seven digits (e.g. 'S1234567')
-    artists.musicToken ,string , Results can be either for artists ('R' followed by six digits) or composers ('C' followed by five digits).
+    songs.musicToken ,string , Starts with 'S' followed by one or more digits (e.g. 'S1234567')
+    artists.musicToken ,string , Results can be either for artists (starts with 'R') or composers (starts with 'C').
 
 .. code:: json
 
