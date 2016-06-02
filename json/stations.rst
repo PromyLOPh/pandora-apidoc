@@ -142,6 +142,8 @@ This is a free text search that matches artist and track names.
     :header: Name ,Type ,Description
 
     searchText ,string ,Artist name or track title
+    includeNearMatches,bool,(optional)
+    includeGenreStations,bool,(optional)
 
 .. code:: json
 
