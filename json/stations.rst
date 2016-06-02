@@ -153,13 +153,14 @@ This is a free text search that matches artist and track names.
         "syncTime": 1335869287
     }
 
-Matching songs and artists are returned in two separate list.
+Matching songs, artists, and genre stations are returned in three separate lists.
 
 .. csv-table::
     :header: Name ,Type ,Description
 
-    songs.musicToken ,string , Starts with 'S' followed by one or more digits (e.g. 'S1234567')
-    artists.musicToken ,string , Results can be either for artists (starts with 'R') or composers (starts with 'C').
+    songs.musicToken ,string , Token starts with 'S' followed by one or more digits (e.g. 'S1234567').
+    artists.musicToken ,string , Results can be either for artists (token starts with 'R') or composers (token starts with 'C').
+    genreStations.musicToken, string, Token starts with 'G' followed by one or more digits (e.g. 'G123').
 
 .. code:: json
 
@@ -179,6 +180,11 @@ Matching songs and artists are returned in two separate list.
                 "musicToken": "R175304",
                 "likelyMatch": false,
                 "score": 100
+            }],
+            "genreStations": [{
+                "musicToken": "G123",
+                "score": 100,
+                "stationName": u"Today's Encore"}
             }]
         }
     }
