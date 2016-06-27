@@ -22,7 +22,7 @@ Retrieve station list
     :header: Name ,Type ,Description
 
     includeStationArtUrl ,boolean ,Includes "artUrl" field in result (optional)
-    stationArtSize,string,“W130H130”
+    stationArtSize,string,“W130H130” (optional)
     includeAdAttributes,boolean,(optional)
     includeStationSeeds,boolean,(optional)
     includeShuffleInsteadOfQuickMix,boolean,(optional)
@@ -46,6 +46,7 @@ QuickMix stations additionally include a list of station ids
 
     stations.stationId,string,
     stations.stationName,string,
+    stations.dateCreated.time,int,Number of milliseconds since Unix epoch
     checksum,string,
 
 .. code:: json
@@ -82,7 +83,8 @@ QuickMix stations additionally include a list of station ids
                         "339646069607180561",
                         "339644480469281041"
                      ],
-                     "allowDelete":false
+                     "allowDelete":false,
+                     "allowEditDescription":false
                   }
                ],
                "checksum":"99776ddd31ad798895578593e78e3691"
@@ -184,7 +186,7 @@ Matching songs, artists, and genre stations are returned in three separate lists
             "genreStations": [{
                 "musicToken": "G123",
                 "score": 100,
-                "stationName": u"Today's Encore"}
+                "stationName": "Today's Encore"
             }]
         }
     }
@@ -209,7 +211,7 @@ should be used as seed.
    :header: Name,Type,Description
 
    trackToken,string,See :ref:`station-getPlaylist`
-   musicType,string,“song” or “artist”
+   musicType,string,“song” or “artist” ("song" for genre stations)
    musicToken,string,See :ref:`music-search`
 
 
@@ -254,18 +256,7 @@ station.
             "artistName": "Foo Fighters",
             "musicToken": "3bcf3f314419f974",
             "seedId": "2123197691273031149",
-            "artUrl": "http://cont-dc6-1.pandora.com/images/public/amg/portrait/pic200/drP900/P972/P97242B3S6P.jpg",
-            "dateCreated": {
-                "date": 9,
-                "day": 3,
-                "hours": 6,
-                "minutes": 23,
-                "month": 6,
-                "seconds": 22,
-                "time": 1404912202722,
-                "timezoneOffset": 420,
-                "year": 114
-            }
+            "artUrl": "http://cont-dc6-1.pandora.com/images/public/amg/portrait/pic200/drP900/P972/P97242B3S6P.jpg"
         }
     }
 
@@ -428,7 +419,17 @@ Extended station information includes seeds and feedback.
                      "songName": "Winter",
                      "musicToken": "87ef9db1c3f04330"
                  }],
-                 "artists": []
+                 "artists": [{
+                     "artistName": "Jason Derulo",
+                     "musicToken": "563f577e00d837a5",
+                     "seedId": "31525199612287328",
+                     "artUrl": "http://mediaserver-cont-sv5-1-v4v6.pandora.com/images/public/amg/portrait/pic200/drQ300/Q366/Q36675SDAPJ.jpg"
+                 }],
+                 "genres": [{
+                     "musicToken": "cc021b31a48b8acf",
+                     "genreName": "Today's Hits",
+                     "seedId": "31525199599467854"
+                 }]
              },
              "isShared": false,
              "allowDelete": true,
@@ -436,6 +437,7 @@ Extended station information includes seeds and feedback.
              "isQuickMix": false,
              "allowRename": true,
              "stationSharingUrl": "https://www.pandora.com/login?target=%2Fshare%2Fstation%2Fc644756145fc3f5df1916901125ee697495159685ae39575",
+             "allowEditDescription": true,
              "feedback": {
                  "thumbsUp": [{
                      "dateCreated": {
@@ -628,7 +630,7 @@ Modify QuickMix
 .. csv-table::
     :header: Name ,Type ,Description
 
-    quickMixStationIds ,array ,List of station id’s (strings)
+    quickMixStationIds ,array ,List of station id’s (strings) (see :ref:`user-getStationList`)
 
 .. code:: json
 
