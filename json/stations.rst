@@ -403,18 +403,6 @@ Extended station information includes seeds and feedback.
                  "songs": [{
                      "seedId": "428301990230109677",
                      "artistName": "Tori Amos",
-                     "dateCreated": {
-                         "date": 15,
-                         "day": 6,
-                         "hours": 7,
-                         "minutes": 34,
-                         "month": 0,
-                         "nanos": 873000000,
-                         "seconds": 21,
-                         "time": 1295105661873,
-                         "timezoneOffset": 480,
-                         "year": 111
-                     },
                      "artUrl": "http://cont-sjl-1.pandora.com/images/public/amz/5/2/8/5/075678235825_130W_130H.jpg",
                      "songName": "Winter",
                      "musicToken": "87ef9db1c3f04330"
