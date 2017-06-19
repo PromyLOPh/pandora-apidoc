@@ -109,7 +109,7 @@ User login
 ----------
 
 :Method: auth.userLogin
-:Query String: ?partner_id="id from auth.partnerLogin"
+:Query String: ?partner_id="ID"
 
 This request *must* be sent over a TLS-encrypted link. It authenticates the
 Pandora user by sending his username, usually his email address, and password
