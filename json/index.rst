@@ -85,7 +85,6 @@ message whereas successful requests carry actual response data in the key
    ads
    methods
    errorcodes
-   implementations
 
 .. toctree::
    :hidden:

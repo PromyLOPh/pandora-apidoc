@@ -9,16 +9,16 @@ Implementations
 A list of open source Pandora JSON API implementations.
 
 .. csv-table::
-   :header: Name, Used in client, Language, Remarks
+   :header: Name,Used in client,Language,API Version,Remarks
 
-   libpiano_, "pianobar_, pianod_", C,""
-   Pandora_, Hermes_, Objective-C,""
-   pydora_ (`PyPI`__), "`pydora player`_, pancake_, `mopidy-pandora`_", "Python", "Python 2.7+ and 3.3+ compatible"
-   `pithos.pandora`_, Pithos_, Python,""
-   PandoraSharp_, Elpis_, C#, Not to be confused with the `original PandoraSharp`_ (uses XMLRPC)
-   libpanda_, Mousiki_, Vala,""
-   gopiano_, , Go, ""
-   `WebService::Pandora`_, , Perl, "Perl 5.6+ compatible"
+   libpiano_, "pianobar_, pianod_", C,JSON v5,""
+   Pandora_, Hermes_, Objective-C,JSON v5,""
+   pydora_ (`PyPI`__), "`pydora player`_, pancake_, `mopidy-pandora`_", "Python", JSON v5,"Python 2.7+ and 3.3+ compatible"
+   `pithos.pandora`_, Pithos_, Python,JSON v5,""
+   PandoraSharp_, Elpis_, C#,JSON v5, Not to be confused with the `original PandoraSharp`_ (uses XMLRPC)
+   libpanda_, Mousiki_, Vala,JSON v5,""
+   gopiano_, , Go,JSON v5, ""
+   `WebService::Pandora`_, , Perl,JSON v5, "Perl 5.6+ compatible"
 
 .. _libpiano: https://github.com/PromyLOPh/pianobar/tree/master/src/libpiano
 .. _pianobar: http://6xq.net/projects/pianobar/

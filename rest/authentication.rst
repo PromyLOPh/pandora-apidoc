@@ -9,7 +9,7 @@ Authentication
 User Login
 ==========
 
-:Endpoint: /v1/login
+:Endpoint: /v1/auth/login
 
 Request
 -------

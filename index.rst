@@ -24,5 +24,6 @@ Suggestions and patches are welcome.
 .. toctree::
    :maxdepth: 2
 
+   implementations
    json/index
    rest/index

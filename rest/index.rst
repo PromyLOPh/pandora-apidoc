@@ -12,7 +12,6 @@ REST API
    ads
    endpoints
    errorcodes
-   implementations
 
 The Pandora REST API is used by modern Pandora apps including the website and
 the various mobile apps provided by Pandora. The current REST API has multiple
@@ -23,9 +22,9 @@ feature set evolves. The main endpoint is:
 - https://www.pandora.com/api/
 
 All requests are JSON-encoded and sent via HTTP POST body to the endpoints over
-HTTPS. Response bodies are JSON-encoded values. Unlike the JSON v5 API there is
-no requirement for time syncronization, Blowfish cryptography, or partner
-logins.
+HTTPS. Requests require a ``Content-Type`` header of ``application/json``.
+Response bodies are JSON-encoded values. Unlike the JSON v5 API there is no
+requirement for time syncronization, Blowfish cryptography, or partner logins.
 
 The API requires a cookie aware client as several cookies will be issued during
 authentication that **must** be present in every request. Failure to provide
@@ -48,6 +47,7 @@ cookie in each request.
 
 	POST /api/v1/auth/login HTTP/1.1
 	Host: www.pandora.com
+    Content-Type: application/json;charset=utf-8
 	X-CsrfToken: 123456a7889b1c23
 	X-AuthToken: 
 
@@ -65,6 +65,7 @@ the auth token obtained during login. It is acceptable to include the
 
 	POST /api/v1/station/getStations HTTP/1.1
 	Host: www.pandora.com
+    Content-Type: application/json;charset=utf-8
 	X-CsrfToken: 123456a7889b1c23
 	X-AuthToken: dGhpcyBpcyBqdXN0IGFuIGV4YW1wbGUgY29kZQo=
 
