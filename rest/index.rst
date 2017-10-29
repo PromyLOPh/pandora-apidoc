@@ -26,10 +26,6 @@ HTTPS. Requests require a ``Content-Type`` header of ``application/json``.
 Response bodies are JSON-encoded values. Unlike the JSON v5 API there is no
 requirement for time syncronization, Blowfish cryptography, or partner logins.
 
-The API requires a cookie aware client as several cookies will be issued during
-authentication that **must** be present in every request. Failure to provide
-the cookies will result in HTTP 400 errors.
-
 .. _rest-csrf-token:
 
 CSRF Token / Cookie
