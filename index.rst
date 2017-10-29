@@ -25,4 +25,4 @@ Suggestions and patches are welcome.
    :maxdepth: 2
 
    json/index
-
+   rest/index
