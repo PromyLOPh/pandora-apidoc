@@ -2,17 +2,6 @@
 REST API
 ========
 
-.. toctree::
-   :maxdepth: 2
-
-   authentication
-   stations
-   bookmarks
-   account
-   ads
-   endpoints
-   errorcodes
-
 The Pandora REST API is used by modern Pandora apps including the website and
 the various mobile apps provided by Pandora. The current REST API has multiple
 versions and not all functionality seems to be supported for each version.
@@ -25,6 +14,17 @@ All requests are JSON-encoded and sent via HTTP POST body to the endpoints over
 HTTPS. Requests require a ``Content-Type`` header of ``application/json``.
 Response bodies are JSON-encoded values. Unlike the JSON v5 API there is no
 requirement for time syncronization, Blowfish cryptography, or partner logins.
+
+.. toctree::
+   :maxdepth: 2
+
+   authentication
+   stations
+   bookmarks
+   account
+   ads
+   endpoints
+   errorcodes
 
 .. _rest-csrf-token:
 
@@ -41,13 +41,13 @@ cookie in each request.
 
 .. code:: http
 
-	POST /api/v1/auth/login HTTP/1.1
-	Host: www.pandora.com
+    POST /api/v1/auth/login HTTP/1.1
+    Host: www.pandora.com
     Content-Type: application/json;charset=utf-8
-	X-CsrfToken: 123456a7889b1c23
-	X-AuthToken: 
+    X-CsrfToken: 123456a7889b1c23
+    X-AuthToken: 
 
-	{ "username": "foo", "password": "bar" }
+    { "username": "foo", "password": "bar" }
 
 .. _rest-auth-token:
 
@@ -59,13 +59,13 @@ the auth token obtained during login. It is acceptable to include the
 
 .. code:: http
 
-	POST /api/v1/station/getStations HTTP/1.1
-	Host: www.pandora.com
+    POST /api/v1/station/getStations HTTP/1.1
+    Host: www.pandora.com
     Content-Type: application/json;charset=utf-8
-	X-CsrfToken: 123456a7889b1c23
-	X-AuthToken: dGhpcyBpcyBqdXN0IGFuIGV4YW1wbGUgY29kZQo=
+    X-CsrfToken: 123456a7889b1c23
+    X-AuthToken: dGhpcyBpcyBqdXN0IGFuIGV4YW1wbGUgY29kZQo=
 
-	{ "pageSize": 250 }
+    { "pageSize": 250 }
 
 Errors
 ======
@@ -74,8 +74,8 @@ response body. Any responses with a 200 status code are successful.
 
 .. code:: json
 
-	{
-		"errorCode": 0,
-		"errorString": "INVALID_REQUEST",
-		"message": "The request could not be validated"
-	}
+    {
+        "errorCode": 0,
+        "errorString": "INVALID_REQUEST",
+        "message": "The request could not be validated"
+    }
