@@ -24,6 +24,7 @@ These error codes can be returned by all endpoints:
 Error Code     Error String                     Description
 ==========     =============================    ===========
 0              INVALID_REQUEST                  General bad request error. Often means authentication was invalid
+1001           INVALID_REQUEST                  Invalid auth token
 ?              STREAM_VIOLATION                 Unable to stream to this region?
 ?              STATION_LIMIT_REACHED            Stream minutes limit or skip count reached?
 ?              THUMBPRINT_RADIO_NOT_ELIGIBLE    Not enough feedback to construct a Thumbprint station?
