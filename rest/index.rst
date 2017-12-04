@@ -25,6 +25,11 @@ requirement for time syncronization, Blowfish cryptography, or partner logins.
    ads
    endpoints
    errorcodes
+   music
+   ondemand
+   playlist
+   search
+   listener
 
 .. _rest-csrf-token:
 
