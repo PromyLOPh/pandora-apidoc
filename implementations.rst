@@ -19,6 +19,7 @@ A list of open source Pandora JSON API implementations.
    libpanda_, Mousiki_, Vala,JSON v5,""
    gopiano_, , Go,JSON v5, ""
    `WebService::Pandora`_, , Perl,JSON v5, "Perl 5.6+ compatible"
+   `Pandora.js`_, , Node.js,REST, ""
 
 .. _libpiano: https://github.com/PromyLOPh/pianobar/tree/master/src/libpiano
 .. _pianobar: http://6xq.net/projects/pianobar/
@@ -38,4 +39,5 @@ A list of open source Pandora JSON API implementations.
 .. _pancake: https://github.com/osum4est/pancake
 .. _`mopidy-pandora`: https://github.com/rectalogic/mopidy-pandora
 .. _`WebService::Pandora`: https://github.com/defc0n/WebService-Pandora
+.. _`Pandora.js`: https://github.com/FireController1847/node-pandora-api
 __ http://pypi.python.org/pypi/pydora
