@@ -39,5 +39,5 @@ A list of open source Pandora JSON API implementations.
 .. _pancake: https://github.com/osum4est/pancake
 .. _`mopidy-pandora`: https://github.com/rectalogic/mopidy-pandora
 .. _`WebService::Pandora`: https://github.com/defc0n/WebService-Pandora
-.. _`Pandora.js`: https://github.com/FireController1847/node-pandora-api
+.. _`Pandora.js`: https://github.com/FireController1847/Pandora.js
 __ http://pypi.python.org/pypi/pydora
