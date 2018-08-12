@@ -30,7 +30,7 @@ Code     Description
 1001     INVALID_AUTH_TOKEN. Occurs once a user auth token expires.
 1002     INVALID_PARTNER_LOGIN. auth.partnerLogin auth.userLogin. Can also occur for a user login.
 1003     LISTENER_NOT_AUTHORIZED. station.getPlaylist - Pandora One Subscription or Trial Expired. Possibly account suspended?
-1004     USER_NOT_AUTHORIZED. User not authorized to perform action.
+1004     USER_NOT_AUTHORIZED. User not authorized to perform action. Is your station token correct?
 1005     MAX_STATIONS_REACHED. Station limit reached.
 1006     STATION_DOES_NOT_EXIST. Station does not exist.
 1007     COMPLIMENTARY_PERIOD_ALREADY_IN_USE         
