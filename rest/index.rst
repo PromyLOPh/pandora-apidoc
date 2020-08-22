@@ -84,3 +84,15 @@ response body. Any responses with a 200 status code are successful.
         "errorString": "INVALID_REQUEST",
         "message": "The request could not be validated"
     }
+
+Trivia
+======
+The Pandora REST backend is suspected to be written in Java, due to the following error message received after a mistake in a request to v6/collections/getSortedPlaylists.
+
+.. code:: json
+
+    {
+      "code": -32603,
+      "message": "Internal error: java.lang.IllegalStateException: Expected STRING but was BOOLEAN at path $.sortOrder"
+    }
+    
