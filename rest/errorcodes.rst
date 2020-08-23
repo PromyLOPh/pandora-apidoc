@@ -39,4 +39,5 @@ Error Code     Error String                     Description
 ?              SERVER_ERROR                     Generic server error
 ?              NOT_FOUND                        Content not found
 ?              UNPLAYABLE_SHUFFLE_STATION       Unable to play shuffle station?
+99022          INVALID_PANDORA_TYPE             "The type of the supplied Pandora ID is invalid for this API endpoint." - mainly raised by the v6 collection APIs.
 ==========     =============================    ===========
