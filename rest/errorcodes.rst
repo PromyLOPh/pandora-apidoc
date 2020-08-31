@@ -40,5 +40,6 @@ Error Code     Error String                     Description
 ?              NOT_FOUND                        Content not found
 ?              UNPLAYABLE_SHUFFLE_STATION       Unable to play shuffle station?
 99000          PLAYLIST_VERSION_MISMATCH        "An operation on a playlist is trying to be made on a version that's different from the most current one." - raised by the v7 playlist APIs.
+99003          PLAYLIST_BAD_RANGE               "Invalid range detected when moving/deleting/requesting playlist items." - raised by the v7 playlist APIs.
 99022          INVALID_PANDORA_TYPE             "The type of the supplied Pandora ID is invalid for this API endpoint." - mainly raised by the v6 collection APIs.
 ==========     =============================    ===========
