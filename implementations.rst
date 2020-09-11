@@ -20,7 +20,7 @@ A list of open source Pandora JSON API implementations.
    gopiano_, , Go,JSON v5, ""
    `WebService::Pandora`_, , Perl,JSON v5, "Perl 5.6+ compatible"
    `Pandora.js`_, , Node.js,REST, ""
-   libepimetheus_, Epimetheus_, Kotlin/Android, REST, "App in development."
+   libepimetheus_, Epimetheus_, Dart/Flutter, REST, "For Android, macOS, and the Web."
 
 .. _libpiano: https://github.com/PromyLOPh/pianobar/tree/master/src/libpiano
 .. _pianobar: http://6xq.net/projects/pianobar/
@@ -41,6 +41,6 @@ A list of open source Pandora JSON API implementations.
 .. _`mopidy-pandora`: https://github.com/rectalogic/mopidy-pandora
 .. _`WebService::Pandora`: https://github.com/defc0n/WebService-Pandora
 .. _`Pandora.js`: https://github.com/FireController1847/Pandora.js
-.. _libepimetheus: https://github.com/EpimetheusAndroid/libepimetheus
-.. _Epimetheus: https://github.com/EpimetheusAndroid/Epimetheus
+.. _libepimetheus: https://github.com/EpimetheusMusicPlayer/Epimetheus/tree/dev/lib/libepimetheus
+.. _Epimetheus: https://github.com/EpimetheusMusicPlayer/Epimetheus
 __ http://pypi.python.org/pypi/pydora
