@@ -5,6 +5,8 @@ List of Endpoints
 .. index::
    single: REST Endpoints
 
+The following is a list of endpoints as of 2017-08-29. An up-to-date list can be dynamically generated at any time with `Pandora Toolbox <https://github.com/EpimetheusMusicPlayer/Toolbox>`_.
+
 .. _endpoints:
 
 - :ref:`\/v1/ad/brokenAd <rest-v1-ad-brokenAd>`
