@@ -25,9 +25,9 @@ Retrieve station list
     stationArtSize,string,“W130H130” (optional)
     includeAdAttributes,boolean,(optional)
     includeStationSeeds,boolean,(optional)
-    includeShuffleInsteadOfQuickMix,boolean,(optional)
-    includeRecommendations,boolean,(optional)
-    includeExplanations,boolean,(optional)
+    includeRecommendations,boolean,include search recommendations in the response (optional)
+    includeExplanations,boolean,include explanation strings in the recommendations (optional)
+    includeExtras,boolean,include "extras" lists in the reccomendations (optional)
 
 .. code:: json
 
