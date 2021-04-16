@@ -7,13 +7,19 @@
 Partner passwords
 =================
 
-Passwords depend on the API entry point used.
-
-tuner.pandora.com
------------------
+The following credetials work for the hosts ``tuner.pandora.com``,
+``android-tuner.pandora.com`` and ``ios-tuner.pandora.com``.
 
 Android
 ^^^^^^^
+
+:username: android-gtv
+:password: ``^bs2*tzZAM47tvmAvV1GZS^TH1SBW?8o``
+:deviceId: gtv2-foster
+:decrpyt password: ``2lSj00N1fKYfOk8x``
+:encrypt password: ``MCf5Ljj*V?Fr4cF4``
+
+Old:
 
 :username: android
 :password: ``AC7IBG09A3DTSYM4R41UJWL07VLN8JI7``
